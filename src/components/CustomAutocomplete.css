@@ -1,0 +1,77 @@
+
+  .multi-select{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    min-height: 48px;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    padding: 8px 24px 8px 12px;
+  }
+  .chip{
+    display: flex;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 2px;
+    color: #333333;
+  }
+  .cansel-icon{
+    margin-left: 6px;
+  }
+  .options-list{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 400px;
+    padding:12px 16px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 32px 0 rgba(51, 51, 51, 0.15);
+  }
+  .search-input{
+    min-height: 40px;
+    
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    padding: 4px 8px;
+  }
+  .option{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F4F4F4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+  }
+ .checkbox{
+    width: 24px;
+    height: 24px;
+ }
+  input[type="checkbox"] + span {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #C1C1C1;
+    border-radius: 6px;
+  }
+  .dropdown-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
